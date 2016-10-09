@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhotoView</string>
+    <dimen name="item_row_space">8dp</dimen>
+    <dimen name="item_size">100dp</dimen>
+</resources>

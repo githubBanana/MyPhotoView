@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <!--<com.cy.src.photos.widget.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="@dimen/item_size"
+        android:layout_height="@dimen/item_size"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/iv_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        app:srcCompat="@mipmap/ic_highlight_off_black_24dp"
+        android:visibility="gone" />
+    <!--</com.cy.src.photos.widget.SquareFrameLayout>-->
+</FrameLayout>
